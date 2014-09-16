@@ -39,4 +39,71 @@
       type = Terminal
       order = 0
       parent = child1
+  [[packaging]]
+    [[[child0]]]
+      position = 0:45
+      type = Window
+      order = 0
+      parent = ""
+      size = 1920, 982
+    [[[child1]]]
+      labels = None, None, None
+      type = Notebook
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 961
+      type = HPaned
+      order = 0
+      parent = child1
+    [[[child3]]]
+      position = 478
+      type = VPaned
+      order = 0
+      parent = child2
+    [[[child5]]]
+      position = 480
+      type = HPaned
+      order = 1
+      parent = child3
+    [[[child8]]]
+      position = 478
+      type = VPaned
+      order = 1
+      parent = child2
+    [[[terminal11]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child1
+    [[[terminal10]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child8
+    [[[terminal12]]]
+      profile = default
+      type = Terminal
+      order = 2
+      parent = child1
+    [[[terminal4]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child3
+    [[[terminal7]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child5
+    [[[terminal6]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child5
+    [[[terminal9]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child8
 [plugins]
